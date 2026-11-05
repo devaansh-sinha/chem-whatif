@@ -153,6 +153,8 @@ Use the sidebar or bottom **Next / Back** buttons to move between three pages: *
 
 Publish the contents of this folder at the root of a GitHub repository, keeping
 `requirements.txt`, `app/`, `src/`, and `.streamlit/` in their current locations.
+Include the root `packages.txt` as well: it installs the Linux graphics libraries
+required by RDKit's 2D drawing module on Community Cloud.
 Do not upload the local `.venv/`, caches, or secrets. The included `.gitignore`
 excludes them. Dependency versions are pinned to the locally tested environment.
 
