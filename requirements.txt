@@ -1,0 +1,5 @@
+streamlit==1.63.0
+rdkit==2026.3.6
+pandas==2.3.3
+py3Dmol==2.5.5
+pytest==8.4.2
